@@ -1,3 +1,7 @@
+---
+layout: default
+title: 首页
+---
 该GitHub Pages用于"云数据库技术-行业动态"的内容归档，大部分时候双周更新一次，可以通过如下公众号订阅：云数据库技术
 
 ![云数据库技术](https://cloud-database-tech.github.io/images/qrcode.jpg)
@@ -6,7 +10,16 @@
 
 归档：
 
-* [云数据库行业动态@2022-04-29](./2022-04-29.html)
-* [云数据库行业动态@2022-04-15](./2022-04-15.html) 
-* [云数据库行业动态@2022-03-25](./2022-03-25.html)
 
+<ul>
+
+{% assign thepages = site.pages | sort: 'my_title' | reverse %} 
+
+{% for page in thepages %}
+  {% if page.categories contains 'updating' %}
+    <li>
+    <a href="{{ page.url }}">{{page.my_title}}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
