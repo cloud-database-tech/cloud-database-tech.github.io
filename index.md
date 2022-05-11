@@ -9,14 +9,24 @@ title: 首页
 同时，可以通过该仓库的Issue提交希望展示的内容。
 
 归档：
-
-
 <ul>
-
 {% assign thepages = site.pages | sort: 'my_title' | reverse %} 
 
 {% for page in thepages %}
   {% if page.categories contains 'updating' %}
+    <li>
+    <a href="{{ page.url }}">{{page.my_title}}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+数据库加密传输文章归档:
+<ul>
+{% assign thepages = site.pages | sort: 'my_publishdate' | reverse %} 
+
+{% for page in thepages %}
+  {% if page.categories contains 'tls' %}
     <li>
     <a href="{{ page.url }}">{{page.my_title}}</a>
     </li>

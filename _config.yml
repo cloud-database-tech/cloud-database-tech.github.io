@@ -9,7 +9,7 @@ github_username:  cloud-database-tech
 categories: [updating, tls, other]
 header_pages:
   - index.md
-  - about.md
+  - about.markdown 
 
 # Build settings
 theme: minima
