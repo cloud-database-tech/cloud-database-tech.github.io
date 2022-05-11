@@ -7,6 +7,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: xxx
 github_username:  cloud-database-tech
 categories: [updating, tls, other]
+header_pages:
+  - index.md
+  - about.md
 
 # Build settings
 theme: minima
