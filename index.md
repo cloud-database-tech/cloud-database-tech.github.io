@@ -33,3 +33,16 @@ title: 首页
   {% endif %}
 {% endfor %}
 </ul>
+
+其他:
+<ul>
+{% assign thepages = site.pages | sort: 'my_publishdate' | reverse %} 
+
+{% for page in thepages %}
+  {% if page.categories contains 'other' %}
+    <li>
+    <a href="{{ page.url }}">{{page.my_title}}</a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>

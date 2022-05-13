@@ -39,7 +39,7 @@ my_title: 阿里云RDS Serverless测评
 * 之后，再过10秒（约第317秒），完成了第二次升配，实例响应时间再次下降，约到30毫秒
 * 再之后，再过约10秒（约第328秒），再次升配，但是此时响应时间不再有什么变化
 
-![](/Users/zzx/Library/Mobile Documents/com~apple~CloudDocs/个人文件/云数据库技术/文章/images/aliyun-serverless-02.png)
+![](./images/aliyun-serverless-02.png)
 
 ### 降配过程
 
