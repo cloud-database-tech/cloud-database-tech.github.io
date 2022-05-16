@@ -1,6 +1,6 @@
 ---
 layout: page
-categories: [tls]
+categories: [other]
 my_publishdate: 2022-05-11
 my_title: 不同云厂商的RDS MySQL有什么不同
 ---
