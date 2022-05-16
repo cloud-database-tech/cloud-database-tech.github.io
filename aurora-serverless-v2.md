@@ -34,7 +34,7 @@ Aurora自2014年发布以来，一直是AWS的最核心数据库产品，而Serv
 
 在这个过程中，我们观测"主进程"的rt变化，以及整个过程中，实例规格的变化（以buffer pool为指标）。
 
-![图片](/Users/zzx/Documents/Github/cloud-database-tech.github.io/images/serverless-beta.png)
+![图片](./images/serverless-beta.png)
 
 ### 测试结果与分析
 
