@@ -1,11 +1,11 @@
 
 title: 云数据库技术 
 description: >- # this means to ignore newlines until "baseurl:"
-  这个站点用于"云数据库技术"相关内容归档、协作。可以通过订阅公众号"云数据库技术"查看相关内容。
+   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: xxx
-github_username:  cloud-database-tech
+# github_username:  cloud-database-tech
 categories: [updating, tls, other]
 header_pages:
   - index.md
